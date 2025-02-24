@@ -1,16 +1,19 @@
-## Hi there 👋
+## Hi there 👋 I'm Jian
 
-<!--
-**HARRY-JUSTHARRY/HARRY-JUSTHARRY** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```typescript
+import { Person } from '@world';
 
-Here are some ideas to get you started:
+class Spells extends Person {
+  languages  = ['Java', 'C++', 'Python', 'C', 'JavaScript'];
+  databases  = [];
+  frameworks = ['React'];
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class Me extends Spells {
+  name     = 'Jian Yang';
+  role     = 'CS Student';
+  location = 'Winnipeg, MB';
+  website  = '[https://harry-justharry.github.io/personal_portfolio]';
+}
+
+
