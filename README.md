@@ -5,7 +5,7 @@ import { Person } from '@world';
 
 class Spells extends Person {
   languages  = ['Java', 'C++', 'Python', 'C', 'JavaScript'];
-  databases  = [MySQL];
+  databases  = ['MySQL'];
   frameworks = ['React'];
 }
 
