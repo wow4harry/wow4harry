@@ -13,7 +13,7 @@ class Me extends Spells {
   name     = 'Jian Yang';
   role     = 'CS Student';
   location = 'Winnipeg, MB';
-  website  = '[https://www.thisisjian.com/]';
+  website  = '[https://www.thisisjian.com]';
 }
 
 
